@@ -6,4 +6,4 @@ function onSubmit(event){
   const input = document.getElementById("password-lenght")
   console.log(input.value)
 }
-document.addEventListner
+document.addEventListner('submit', onSubmit)
