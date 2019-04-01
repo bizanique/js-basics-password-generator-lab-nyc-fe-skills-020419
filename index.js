@@ -4,6 +4,8 @@ window.addEventListener("load", () => {
 const lowerCaseLetters ="abcdefghijklmnopqrstuvwxyz"
 function onSubmit(event){
   const input = document.getElementById("password-lenght")
-  console.log(input.value)
+  const howManyCharacters = input.value
+  
 }
 document.addEventListner('submit', onSubmit)
+
