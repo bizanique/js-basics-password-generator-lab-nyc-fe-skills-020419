@@ -9,7 +9,10 @@ function onSubmit(event){
   event.preventDefault()
   const input = document.getElementById("password-length")
   const howManyCharacters = input.value
+  if(input.value < 4){
   let startingString = ''
+  
+  
   for (let i= 0; i <howManyCharacters; i++) { 
     let randomIndex = Math.floor(Math.random() * lowerCaseLetters.length)
 if (startingString.lenght< howManyCharacters){randomIndex startingString += lowerCaseLetters[randomIndex]
