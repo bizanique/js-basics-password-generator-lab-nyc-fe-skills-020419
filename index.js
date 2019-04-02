@@ -12,7 +12,8 @@ function onSubmit(event){
  startingString += lowerCaseLetters[randomIndex]
 }
 console.log(startingString)
-
+const output = document.getElementById('result')
+output.innerHTML = startingString
   
 }
 document.addEventListener('submit', onSubmit)
