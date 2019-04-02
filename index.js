@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
 });
 const lowerCaseLetters ="abcdefghijklmnopqrstuvwxyz"
 const upperCaseLetters ='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-const numbers =
+const numbers = "0123456789"
 function onSubmit(event){
   event.preventDefault()
   const input = document.getElementById("password-length")
