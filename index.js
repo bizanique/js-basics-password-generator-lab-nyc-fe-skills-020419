@@ -12,6 +12,6 @@ function onSubmit(event){
 }
 console.log(startingString)
 
-document.addEventListener('submit', onSubmit)
   
 }
+document.addEventListener('submit', onSubmit)
