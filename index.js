@@ -8,7 +8,7 @@ const specialCharacters = "!#$%&()*+,-./:;<=>?@[\]^_{|}~"
 function onSubmit(event){
   event.preventDefault()
   const input = document.getElementById("password-length")
-  const howManyCharacters = input.value
+  const howManyCharact howManyCharactersers = input.value
   if(input.value < 4){
   let startingString = ''
   
