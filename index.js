@@ -4,6 +4,7 @@ window.addEventListener("load", () => {
 const lowerCaseLetters ="abcdefghijklmnopqrstuvwxyz"
 const upperCaseLetters ='ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 const numbers = "0123456789"
+const specialCharacters = "!#$%&()*+,-./:;<=>?@[\]^_{|}~"
 function onSubmit(event){
   event.preventDefault()
   const input = document.getElementById("password-length")
